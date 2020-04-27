@@ -1,0 +1,24 @@
+{
+    "name": "sendmailapp",
+    "version": "0.0.1",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ajsobrino/nodejs-course.git"
+    },
+    "author": "ajsobrino",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ajsobrino/nodejs-course/issues"
+    },
+    "homepage": "https://github.com/ajsobrino/nodejs-course#readme",
+    "dependencies": {
+        "node-cron": "^2.0.3",
+        "node-schedule": "^1.3.2",
+        "nodemailer": "^6.4.6"
+    }
+}
